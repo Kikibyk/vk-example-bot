@@ -17,10 +17,10 @@
 ```js
 exports.execute = (message) => {
 	// Код команды. Пример:
-    message.send(`Привет!`);
+	message.send(`Привет!`);
 };
 
 exports.info = {
-    name: "" // Название команды
+	name: "" // Название команды
 };
 ```
