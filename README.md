@@ -3,8 +3,10 @@
 ![alt text](https://i.imgur.com/peBXH5j.png)
 
 После открываем PowerShell путём зажатия Shift+ПКМ по пустому месту и вводим туда следующее:
+```
 • npm i
 • node app.js
+```
 
 Пишем в группу/странице, откуда вы получали токен, "Привет".
 ![alt text](https://i.imgur.com/AAXS4Ej.png)
