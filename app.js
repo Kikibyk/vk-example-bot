@@ -4,9 +4,7 @@ const commands = []; // Массив с командами
 
 // Добавление команд из папки commands в массив 
 require('fs').readdir("./commands/", function(err, files){
-    files.forEach(f => {
-        commands.push(require(`./commands/${f}`));
-    });
+    files.forEach(f => commands.push(require(`./commands/${f}`)));
 });
 
 // Событие нового сообщения
