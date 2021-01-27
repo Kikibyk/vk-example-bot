@@ -3,5 +3,5 @@ exports.execute = (message) => {
 };
 
 exports.info = {
-    name: "привет" // Название команды
+    name: /^hello$/ // Название команды
 };
