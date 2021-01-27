@@ -21,6 +21,6 @@ exports.execute = (message) => {
 };
 
 exports.info = {
-	name: "" // Название команды
+	name: /^название команды$/ // Название команды используя регулярные выражения (https://learn.javascript.ru/regexp-groups)
 };
 ```
