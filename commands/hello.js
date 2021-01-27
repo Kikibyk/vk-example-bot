@@ -3,5 +3,5 @@ exports.execute = (message) => {
 };
 
 exports.info = {
-    name: /^hello$/ // Название команды используя регулярные выражения (https://learn.javascript.ru/regexp-groups)
+    name: /^привет$/ // Название команды используя регулярные выражения (https://learn.javascript.ru/regexp-groups)
 };
