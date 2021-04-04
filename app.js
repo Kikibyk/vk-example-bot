@@ -14,4 +14,4 @@ vk.updates.on("message_new", async (message) => {
     
     message.args = message.text.match(command.info.name); // Получаем аргументы команды
     command.execute(message); // Выполняем код команды
-}).start(); // Включаем обработку события
+}).start().then(() => console.log('\x1b[36m> \x1b[0mBot started')); // Включаем обработку события
